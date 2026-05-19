@@ -21,6 +21,6 @@ message HaScopeConfig {
 }
 
 message HaScopeConfigKey {
-    string ha_scope_id = 1;
-    string vdpu_id = 2;
+    string vdpu_id = 1;
+    string ha_scope_id = 2;
 }
